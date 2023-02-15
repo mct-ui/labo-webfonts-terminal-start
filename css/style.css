@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Azeret';
+    src: url(../assets/fonts/azeret/AzeretMonoVF-1.woff2) format('woff2-variations');
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
