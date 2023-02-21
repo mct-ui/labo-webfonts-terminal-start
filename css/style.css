@@ -1,14 +1,43 @@
-@font-face {
-    font-family: 'Azeret';
-    src: url(../assets/fonts/azeret/AzeretMonoVF-1.woff2) format('woff2-variations');
-}
+/*---------------------------------------/*
+ # SETTINGS
+/*---------------------------------------*/
 
-html {
+/*---------------------------------------/*
+ # GENERIC
+/*---------------------------------------*/
+
+/* Add the Azeret variable webfont here */
+
+/*---------------------------------------/*
+ # ELEMENTS
+/*---------------------------------------*/
+
+* {
+    margin: 0;
     box-sizing: border-box;
 }
 
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
+html {
+    /* add some whitespace to the page */
+    /* set the font family to your variable webfont */
+    font-family: 'Azeret', serif;
+    /* play with the different font features */
+
+    line-height: 1.5;
+    background-color: black;
+    color: #00ff00;
 }
+
+/* make sure the element that is editable has no outline */
+
+/*---------------------------------------/*
+# OBJECTS
+/*---------------------------------------*/
+
+/*---------------------------------------/*
+# COMPONENTS
+/*---------------------------------------*/
+
+/*---------------------------------------/*
+ # UTILITIES
+/*---------------------------------------*/
